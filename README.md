@@ -21,7 +21,7 @@ Esta Primera Pre Entrega contempla todo lo aprendido en el Curso Web desde la cr
 ## MockUp(Wireframe/prototipo) :computer:
 A continuación se muestra una estructura de todos los elementos que va a tener el sitio web, incluyendo las páginas web.
 
-Link -> [PDF](#).
+Link -> [PDF](https://github.com/X-Yams-X/Primera-Pre-Entrega-44830/assets/Pre-Entrega-Wireframe.pdf).
 
 ## Estructura HTML :page_with_curl:
 Dentro del proyecto se encuentra un archivo HTML llamado index en el se muestra ya el contenido estructurar de sitio web, haciendo uso de los tags(Etiquetas semanticas, contenido, etc). El contenido que posee el sitio web es un maqueteado del MockUp.
