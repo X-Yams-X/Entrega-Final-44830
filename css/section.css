@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+#section-primary{
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+#img-principal{
+    width: 100%;
+    opacity :0.6;
+}
+#section-primary h1{
+    color: black;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+}
+#section-primary p{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+}

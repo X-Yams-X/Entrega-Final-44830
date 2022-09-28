@@ -1,49 +1,19 @@
-/* Quitamos todo los bordes de la pagina  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap');
 *{
    margin: 0;
    padding: 0; 
 }
-
-header{
-   width: 100%;
-   background-color: beige;
-   height: 90px;
-}
-
 a{
     text-decoration: none;
 }
-nav{
-    width: 90%;
-    margin: auto;
+main{
+    background-color: #c6eff6;
+}
+p{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-size: 28px;
+    color: #4a4b4d;
 }
 
-nav h3{
-    background-color: brown;
-    width: 35%;
-    height: 90px;
-    padding-top: 35px;
-    float: left;
-    box-sizing: border-box;   
-}
 
-nav ul{
-    background-color: blue;
-    width: 65%;
-    height: 90px;
-    float: left;
-    text-align: right;
-    padding-top: 35px;
-    box-sizing: border-box;
-}
-nav ul li{
-    display: inline;
-}
-nav ul a{
-    color: #fff;
-    font-size: 13px;
-    text-transform: uppercase;
-    padding-left: 15px;
-    padding-top: 35px;
-    box-sizing: border-box;   
-}
