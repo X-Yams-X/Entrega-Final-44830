@@ -7,12 +7,12 @@
 }
 #img-principal{
     width: 100%;
-    opacity :0.6;
+    opacity :0.8;
 }
 #section-primary h1{
-    color: black;
+    color: white;
     font-family: 'Anton', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
     font-size: 40px;
     position: absolute;
     top: 30%;
@@ -22,6 +22,7 @@
 }
 #section-primary p{
     position: absolute;
+    color: white;
     top: 48%;
     left: 50%;
     width: 90%;
