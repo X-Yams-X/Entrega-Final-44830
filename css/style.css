@@ -10,10 +10,20 @@ a{
 main{
     background-color: #c6eff6;
 }
+
 p{
     font-family: 'Tiro Devanagari Marathi', serif;
+}
+
+section > p{
+    text-align: center;
     font-size: 28px;
     color: #4a4b4d;
 }
 
-
+section > h2{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
