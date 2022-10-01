@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 #section-primary{
-    margin-bottom: 30px;
+    background-color: #c6eff6;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -30,31 +31,81 @@
 }
 
 
+/* ? pre-configuraciones */
+#section-services , #section-client{  
+    background-color: #b6e2e0;
+    margin: 20px;
+    border-radius: 23px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+/***************************/
+
+/* ? AREA DE SERVICIO */
+
 #container-card{
-    margin: 30px;
+    width: auto;
+    padding: 20px;
 }
 
 .card-services{
     float: left;
-    width: 31%;
+    width: 29.5%;
     margin: 15px;
-    border: 1px solid;
+    border-radius: 15PX;
+    border: 2px solid #A7B5C0;
 }
-.clear-float{
-    clear: both;
-}
-.card-services h3, p{
-    text-align: center;
+
+.card-services h3{
+    font-size: 24px;    text-align: center;
     margin-top: 10px;
 }
 
-.card-services a{
-    display: block;
-    text-align: right;
-    margin-right: 5%;
+.card-services p{
+    text-align: center;
+    padding: 20px;
 }
 
+.card-services a{
+    width: 50%;
+    display: block;
+    padding: 2px;
+    text-align: center;
+    border-radius: 15PX;
+    border: 2px solid #A7B5C0;
+    margin: auto;
+}
+.card-services a:hover{
+    background-color: #79bad9 ;
+    color: antiquewhite;
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    text-align: center;
+    border-radius: 15PX;
+    padding: 2px;
+    border: 2px solid #60Ceed;
+}
+/* ? AREA DE Cliente */
+
 #card-gallery-client{
-    margin: 30px;
-    border: 1px solid;
+    padding: 25px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+}
+#card-gallery-client img{
+    display: block;
+    padding: 5px;
+    margin-left: 9%;
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+
+/* ? AREA DE Cliente */
+#container-work{
+    
 }

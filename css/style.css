@@ -4,11 +4,12 @@
    margin: 0;
    padding: 0; 
 }
+.clear-float{
+    clear: both;
+} 
+
 a{
     text-decoration: none;
-}
-main{
-    background-color: #c6eff6;
 }
 
 p{
@@ -17,13 +18,13 @@ p{
 
 section > p{
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     color: #4a4b4d;
 }
 
 section > h2{
-    margin-top: 50px;
+    font-size: 32px;
     text-align: center;
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
-}
+} 

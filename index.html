@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,40 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/section.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Yams</title>
 </head>
+
 <body>
-   <header>
+    <header>
         <nav>
             <img src="./assets/img/logoPrincipal.png" alt="Yams">
-			<ul>
-				<li><a href="pages/Services.html">Servicios</a></li>
-				<li><a href="pages/About.html">Sobre Nosotros</a></li>
-				<li><a href="pages/Client.html">Clientes</a></li>
-				<li><a href="pages/Project.html">Proyectos</a></li>
+            <ul>
+                <li><a href="pages/Services.html">Servicios</a></li>
+                <li><a href="pages/About.html">Sobre Nosotros</a></li>
+                <li><a href="pages/Client.html">Clientes</a></li>
+                <li><a href="pages/Project.html">Proyectos</a></li>
                 <li><a href="pages/Contact.html">Contacto</a></li>
-			</ul>
-		</nav>
-   </header>
-   <!-- *Cuerpo Sitio web  -->
-   <main>
+            </ul>
+        </nav>
+    </header>
+    <!-- *Cuerpo Sitio web  -->
+    <main>
+        <!-- ! AREA PRIMARIA  -->
         <section id="section-primary">
             <img id="img-principal" src="./assets/img/image-principal.jpg">
             <h1>Vive una Transformación Digital</h1>
-            <P>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem possimus deserunt labore aspernatur alias. Recusandae illo tempore magnam excepturi non ullam velit laboriosam reiciendis modi mollitia? Nihil architecto tenetur"</P>
+            <P>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem possimus deserunt labore aspernatur alias.
+                Recusandae illo tempore magnam excepturi non ullam velit laboriosam reiciendis modi mollitia? Nihil architecto
+                tenetur"</P>
         </section>
         
         <section id="section-services">
             <h2>SERVICIOS</h2>
             <P>"Los Mejores Servicios Para Tu Transformación Digital"</P>
-            <div id="container-card">
+            <article id="container-card">
                 <div class="card-services">
                     <h3>Servicio 1</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fugit veniam est optio fuga sit distinctio alias voluptatum culpa iusto.</p>
@@ -50,61 +58,52 @@
                     <a href="">Ver</a>
                 </div>
                 <div class="clear-float"></div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="container-footer">
+            <div id="footer-socialNetworks">
+                <h3>Redes Sociales</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+                <ul>
+                    <li><i class="fa-brands fa-facebook"></i><a href="#">facebook</a></li>
+                    <li><i class="fa-brands fa-instagram"></i></><a href="#">instagram</a></li>
+                    <li><i class="fa-brands fa-twitter"></i></i><a href="#">twitter</a></li>
+                    <li><i class="fa-brands fa-linkedin"></i></i><a href="#">linkedin</a></li>                   
+                </ul>
             </div>
-
-        </section>
-
-        <section id="section-client">
-            <h2>CLIENTES</h2>
-            <P>"Nuestro Listado de Clientes"</P>
-            <!-- Carrusel -->
-            <div id="card-gallery-client">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam harum perspiciatis esse, voluptates voluptatum minus expedita, veniam aliquid cupiditate aperiam natus deserunt dolores, soluta voluptatibus? Velit magnam veritatis reprehenderit illo.</p>
+            <div id="footer-navegation">
+                <h3>Nuestra Empresa</h3>
+                <ul>
+                    <li><i class="fa-solid fa-arrow-right"></i><a href="pages/About.html">Sobre Nosotros</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i><a href="pages/Client.html">Clientes</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i><a href="pages/Project.html">Proyectos</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i><a href="pages/Contact.html">Contacto</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i><a href="pages/Services.html">Servicios</a></li>
+                </ul>
             </div>
-        </section>
-        <section id="section-work">
-            <h2>METODOLOGIA</h2>
-            <P>"Nuestro Trabajo Productivo es Ejemplar"</P>
-            <img src="assets/Placeholder_view_vector.png" width="300" height="300">
-        </section>
-   </main>
-   <hr>
-   <footer>
-        <section id="footer-navegation">
-            <h4>Navegación</h4>
-            <ol>
-                <li>Servicios</li>
-                <li>Sobre Nosotros</li>
-                <li>Clientes</li>
-                <li>Proyectos</li>
-                <li>Contactos</li>
-            </ol>
-        </section>
-        <section id="footer-services">
-            <h4>Servicios</h4>
-            <ol>
-                <li>Servicios 1</li>
-                <li>Servicios 2</li>
-                <li>Servicios 3</li>
-                <li>Servicios 4</li>
-                <li>Servicios 5</li>
-                <li>Servicios 6</li>
-            </ol>
-        </section>
-        <section id="footer-socialNetworks">
-            <h4>Redes Sociales</h4>
-            <ol>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Linkedln</li>
-            </ol>
-        </section>
-        <section id="footer-location">
-            <h4>Localizacion</h4>
-            <!-- ?Incorporación de iframe   -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.501928560376!2d-68.94536318255615!3d-22.447764999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ac0998349f5ad3%3A0x4a08f42019953b10!2sQuetena%203114%2C%20Calama%2C%20Antofagasta!5e0!3m2!1ses-419!2scl!4v1663816362377!5m2!1ses-419!2scl" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-   </footer>
+            <div id="footer-location">
+                <div>
+                    <h3>Localizacion</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-envelope-open-text"></i></i>gerencia@yams.cl</li>
+                        <li><i class="fa-solid fa-square-phone"></i>+56 9 XXXXXXX</li>
+                    </ul>
+                </div>         
+            </div>
+            <div id="map-location">
+                <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.501928560376!2d-68.94536318255615!3d-22.447764999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ac0998349f5ad3%3A0x4a08f42019953b10!2sQuetena%203114%2C%20Calama%2C%20Antofagasta!5e0!3m2!1ses-419!2scl!4v1663816362377!5m2!1ses-419!2scl"
+            width="300" height="130" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>    
+        </div>
+        <div class="clear-float"></div>
+        <div class="copyright">
+            <p>Copyright 2021 All Right Reserved By <a href="#">Yilmar Munioz</a></p>
+        </div>
+    </footer>
 </body>
+
 </html>
