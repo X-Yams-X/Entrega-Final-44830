@@ -30,39 +30,43 @@
     transform: translate(-50%, -50%);
 }
 
-
-/* ? pre-configuraciones */
-#section-services , #section-client{  
-    background-color: #b6e2e0;
-    margin: 20px;
-    border-radius: 23px;
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 30px;
+/** AREA DE SERVICIO */
+#section-services, #section-work{
+    background-color: #DFF6FF;
+    width: 100%;
+    height: 400px;
+    
 }
-/***************************/
-
-/* ? AREA DE SERVICIO */
-
-#container-card{
+#container-card{   
     width: auto;
+    height: auto;
+    padding-left:80px;
+    padding-right:80px;
+}
+
+.center-card{
     padding: 20px;
 }
 
 .card-services{
     float: left;
-    width: 29.5%;
-    margin: 15px;
+    width: 28%;
+    margin: 10px;
+    padding: 10px;
     border-radius: 15PX;
-    border: 2px solid #A7B5C0;
+    border: 1px solid #06283D;
 }
 
 .card-services h3{
-    font-size: 24px;    text-align: center;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    color: #06283D;
+    text-align: center;
+    font-size: 24px;    
     margin-top: 10px;
 }
 
 .card-services p{
+    color: #06283D;
     text-align: center;
     padding: 20px;
 }
@@ -73,39 +77,35 @@
     padding: 2px;
     text-align: center;
     border-radius: 15PX;
-    border: 2px solid #A7B5C0;
+    border: 2px solid #06283D;
     margin: auto;
 }
 .card-services a:hover{
-    background-color: #79bad9 ;
+    background-color: #06283D ;
     color: antiquewhite;
     width: 50%;
-    display: block;
-    margin-left: 25%;
+    display: block;;
     text-align: center;
     border-radius: 15PX;
     padding: 2px;
-    border: 2px solid #60Ceed;
-}
+    border: 2px solid #06283D;}
+
 /* ? AREA DE Cliente */
 
-#card-gallery-client{
-    padding: 25px;
-    width: 90%;
+#card-gallery-client{   
+    width: auto;
     height: auto;
-    margin: auto;
-    margin-top: 25px;
-}
+    padding-left:20%;
+    padding-right: 20%;}
+
 #card-gallery-client img{
     display: block;
-    padding: 5px;
-    margin-left: 9%;
+    padding: 30px;
     float: left;
     width: 180px;
-    height: 180px;
-}
+    height: 180px;}
 
-/* ? AREA DE Cliente */
+/* ? AREA de Trabajo */
 #container-work{
     
 }

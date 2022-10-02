@@ -1,30 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap');
+
 *{
    margin: 0;
    padding: 0; 
 }
-.clear-float{
-    clear: both;
-} 
+.clear-float{clear: both;} 
+a{text-decoration: none;}
+p{ font-family: 'Tiro Devanagari Marathi', serif;}
 
-a{
-    text-decoration: none;
-}
-
-p{
+section > h2{ 
+    color: #06283D; 
+    height: 10%;
+    font-size: 32px;
+    text-align: center;
     font-family: 'Tiro Devanagari Marathi', serif;
+    letter-spacing: 2px;
+    padding: 10px;
 }
 
 section > p{
+    height: 10%;
     text-align: center;
     font-size: 24px;
-    color: #4a4b4d;
+    color: #06283D;
+    padding: 10px;
 }
 
-section > h2{
-    font-size: 32px;
-    text-align: center;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 2px;
-} 
+
+
