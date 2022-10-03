@@ -1,0 +1,35 @@
+#section-about {
+    width: 100%;
+    height: auto;
+}
+
+#about-img{
+    float: left;
+    padding: 15px;
+    width: auto;
+    height: auto;
+}
+#about-info{
+    float: left;
+    width: 60%;
+    height: auto;
+}
+
+#section-about figure{
+    padding: 20px;
+}
+
+#about-info h1{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    color: #06283D;
+    text-align: center;
+    font-size: 30px;   
+    margin-top: 10px;
+}
+
+#about-info p{
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    text-align: justify;
+}

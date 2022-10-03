@@ -106,6 +106,13 @@
     height: 180px;}
 
 /* ? AREA de Trabajo */
+#section-work{
+    width: 100%;
+    height: auto;
+}
+
 #container-work{
-    
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
 }
