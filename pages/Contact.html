@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <!-- ICONS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Contacto</title>
@@ -27,29 +28,42 @@
     </header>
    <main>
         <section id="section-contact">
-            <h3>Contáctanos</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ipsum.</p>
-            <br>
-            <p>Dirección......</p>
-            <br>
-            <p>Correo: Contacto@hotmail.com</p>
+            <article id="contact-about">
+                <div class="center-card">
+                    <h3>Contáctanos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ipsum.</p>
+                    <p>Dirección: Av Central #3452</p>
+                    <p>Correo: Contacto@hotmail.com</p>
+                </div>
+            </article>
+            <article id="contact-form">
+                <form action="#" method="post" class="center-card">
+                    <div class="part-row">
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="name">
+                        <label for="company">Empresa o Proyecto:</label>
+                        <input type="text" name="company" id="company">
+                    </div>
+                    <div class="part-row">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                        <label for="phone">Celular:</label>
+                        <input type="number" name="phone" id="phone">
+                    </div>
+                    <div class="part-msg">
+                        <label for="message">Mensaje:</label>
+                        <input type="text" name="message" id="message">
+                    </div>
+                    <div class="part-botom">
+                        <button type="submit">Enviar</button> 
+                        <button type="reset">Reset</button>
+                    </div>
+                </form> 
+            </article>
+            <div class="clear-float"></div>
         </section>
-        <section id="section-form">
-            <form action="#" method="post">
-                <label for="name">Nombre:</label>
-                <input type="text" name="name" id="name"><br><br>
-                <label for="company">Empresa o Proyecto:</label>
-                <input type="text" name="company" id="company"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email"><br><br>
-                <label for="phone">Celular:</label>
-                <input type="number" name="phone" id="phone"><br><br>
-                <label for="message">Mensaje:</label>
-                <input type="text" name="message" id="message"><br><br>
-                <button type="submit">Enviar</button> 
-                <button type="reset">Reset</button>
-            </form> 
-        </section>
+        
+        
    </main>
    <hr>
    <footer>
