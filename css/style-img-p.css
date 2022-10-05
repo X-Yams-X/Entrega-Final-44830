@@ -1,26 +1,26 @@
-#section-about {
+#section-about, #section-client, #section-service{
     width: 100%;
     height: auto;
     background-color: #DFF6FF;
 }
 
-#about-img{
+#about-img, #client-img, #service-img{
     float: left;
     padding: 15px;
     width: auto;
     height: auto;
 }
-#about-info{
+#about-info, #client-info, #service-info{
     float: left;
     width: 60%;
     height: auto;
 }
 
-#section-about figure{
+#section-about figure, #section-client figure, #section-service figure{
     padding: 20px;
 }
 
-#about-info h1{
+#about-info h1, #client-info h1, #service-info h1{
     font-family: 'Tiro Devanagari Marathi', serif;
     color: #06283D;
     text-align: center;
@@ -28,7 +28,7 @@
     margin-top: 10px;
 }
 
-#about-info p{
+#about-info p, #client-info p, #service-info p{
     padding: 20px;
     font-size: 18px;
     font-family: 'Tiro Devanagari Marathi', serif;
