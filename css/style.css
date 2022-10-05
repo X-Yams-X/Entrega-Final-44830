@@ -27,5 +27,41 @@ section > p{
     padding: 10px;
 }
 
+.button {
+    padding: 1em 2em 1em 2em;
+    letter-spacing: 0.10em;
+    padding: 1.40em 3em;
+    background: #2651a8;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFF;
+    display: inline-block;
+}
+.button:hover {
+    padding: 1em 2em 1em 2em;
+    letter-spacing: 0.10em;
+    padding: 1.40em 3em;
+    background: #06283D;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFF;
+    display: inline-block;
+}
+	
+.button-alt{
+    border-color: rgba(0,0,0,.8);
+    color: #FFF;
+    padding: 1em 2em;
+}
+
+.button-alt:hover{
+    border-color: rgba(0,0,0,.8);
+    color: #FFF;
+    padding: 1em 2em;
+}
 
 

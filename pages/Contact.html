@@ -28,41 +28,31 @@
     </header>
    <main>
         <section id="section-contact">
-            <article id="contact-about">
-                <div class="center-card">
-                    <h3>Contáctanos</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ipsum.</p>
-                    <p>Dirección: Av Central #3452</p>
-                    <p>Correo: Contacto@hotmail.com</p>
-                </div>
-            </article>
-            <article id="contact-form">
-                <form action="#" method="post" class="center-card">
-                    <div class="part-row">
-                        <label for="name">Nombre:</label>
-                        <input type="text" name="name" id="name">
-                        <label for="company">Empresa o Proyecto:</label>
-                        <input type="text" name="company" id="company">
-                    </div>
-                    <div class="part-row">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email">
-                        <label for="phone">Celular:</label>
-                        <input type="number" name="phone" id="phone">
-                    </div>
-                    <div class="part-msg">
-                        <label for="message">Mensaje:</label>
-                        <input type="text" name="message" id="message">
-                    </div>
-                    <div class="part-botom">
-                        <button type="submit">Enviar</button> 
-                        <button type="reset">Reset</button>
-                    </div>
+            <div id="contact-about">
+                <h3>Contáctanos</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ipsum.</p>
+                <p>Dirección: Av Central #3452</p>
+                <p>Correo: Contacto@hotmail.com</p>
+            </div>
+            <div id="contact-form">
+                <form action="#" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" id="name" placeholder="Ingrese su nombre">            
+                    <label for="company">Empresa o Proyecto:</label>
+                    <input type="text" name="company" id="company" placeholder="Ingrese su empresa">
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su email">
+
+                    <label for="phone">Celular:</label>
+                    <input type="number" name="phone" id="phone" placeholder="Ingrese su Celular">
+ 
+                    <label for="message">Mensaje:</label>
+                    <textarea type="text" name="message" id="message" rows="10" cols="10" placeholder="Escribe el mensaje"></textarea>
+ 
                 </form> 
-            </article>
-            <div class="clear-float"></div>
+            </div>
         </section>
-        
         
    </main>
    <hr>
