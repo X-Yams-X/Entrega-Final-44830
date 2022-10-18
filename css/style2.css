@@ -177,16 +177,41 @@ footer{
     display: flex;
     justify-content:center;
     text-align: center;
+    padding-top: 15px;
+    padding: 0px 40px;
+    background-color: #06283D;
 }
 /*Footer*/
 footer h3{
     padding: 10px;
+     color: #60CEED;
+}
+footer p {
+    color: #c6eff6;
+    text-align: center;
+    padding: 10px 10px;
 }
 
+#footer-socialNetworks ul li, #footer-navegation ul li , #footer-location ul li {
+    font-size: 12px;
+    line-height: 2;
+    text-transform: uppercase;
+    list-style: none;
+    color: #c6eff6;
+}
+
+footer a,i {
+    padding-left : 3px;
+    color: #c6eff6;
+}
+
+footer a:hover{
+    color: #60CEED;
+}
 
 .copyright{
-    height: 50px;
-    background-color: #60CEED;
+    color: #c6eff6;
+    font-size: x-small;
 }
 /*Media query*/
 
@@ -218,8 +243,8 @@ footer h3{
     }
 
     .menu-links li {
-        padding-left: 10px;
-        font-size: small;
+        padding-left: 7px;
+        font-size: 10px;
     }
     .text-primary h1, p {
         letter-spacing: 3px;
@@ -229,5 +254,5 @@ footer h3{
         padding: 60px;
         justify-content: center;
     }
-    
+    /* Acomodar los container del todos cuando estan en el tamoño */
 }
