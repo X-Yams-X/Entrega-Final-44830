@@ -1,0 +1,233 @@
+/* Letras para los H */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #06283D;
+}
+
+.container {
+    /*Margen */
+    max-width: auto;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+/* Contenedor del header */
+.menu-nav {
+    width: 90%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+}
+
+/* contenedor del logo */
+.logo {}
+
+.logo img {
+    height: 100px;
+    width: 300px;
+}
+
+/* contenedor del menu navegador */
+.menu-links {}
+
+.menu-links li {
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-top: 35px;
+}
+
+nav ul a {
+    color: #c6eff6;
+}
+
+nav ul a:hover {
+    color: #60CEED;
+}
+
+/* sección principal*/
+.section-primary {
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/assets/img/image-principal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 90vh;
+    text-align: center;
+}
+
+.text-primary {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-primary h1,.text-primary p {
+    color: #c6eff6;
+    letter-spacing: 2px;
+    text-shadow:1px 1px #06283D;
+}
+
+.text-primary p {  
+    padding: 50px;
+}
+
+.text-primary h1 {  
+    padding: 20px;
+}
+
+/* Seccion servicios*/
+.section-services{
+    background-color: #c6eff6;
+    color: #06283D;
+    height: 1090px;
+    padding: 30px;
+    text-align: center;
+}
+.card-services{
+    background-color:  #DFF6FF;
+    background-size: cover;
+    background-position: center center;
+    padding: 40px 0px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 1px solid #06283D;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+
+.img-icons{
+    width: 100px;
+    height: 102px
+}
+
+.section-services h3{
+    padding: 15px;
+}
+
+.card-services p {
+    display: none;
+}
+
+/*seccion de clientes*/
+
+.section-client, .section-work{
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-section{
+    padding: 20px;
+    
+}
+
+.header-section h2,.header-section p{
+   color: #06283D;
+}
+
+.logo-client{
+    margin: 25px;
+    width: 180px;
+    height: 182px
+}
+.card-gallery-client {
+    display: flex;
+    flex-direction: column;
+}
+
+/*seccion Metadologia*/
+.section-work{
+    background-color:#c6eff6;
+}
+
+/*seccion Metadologia*/
+
+.info-metodologia h3{
+    margin-top: 15px;
+    letter-spacing: 4px;
+}
+
+.info-metodologia P{
+    margin-top: 15px;
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+/*Footer*/
+footer h3{
+    padding: 10px;
+}
+
+
+.copyright{
+    height: 50px;
+    background-color: #60CEED;
+}
+/*Media query*/
+
+@media only screen and (max-width: 379px) {
+    .logo img {
+        height: 60px;
+        width: 260px;
+    }
+
+    .menu-nav {
+        flex-direction: column;
+    }
+
+    .menu-links li {
+        padding-left: 5px;
+        font-size: xx-small;
+    }
+
+}
+
+@media only screen and (min-width: 380px) and (max-width: 810px) {
+    .logo img {
+        height: 80px;
+        width: 280px;
+    }
+
+    .menu-nav {
+        flex-direction: column;
+    }
+
+    .menu-links li {
+        padding-left: 10px;
+        font-size: small;
+    }
+    .text-primary h1, p {
+        letter-spacing: 3px;
+    }
+    
+    .text-primary p {  
+        padding: 60px;
+        justify-content: center;
+    }
+    
+}

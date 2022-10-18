@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="css/style2.css">
     <!-- ICONS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Yams</title>
@@ -12,78 +14,100 @@
 
 <body>
     <header>
-        <nav>
-            <img src="./assets/img/logoPrincipal.png" alt="Yams">
-            <ul>
-                <li><a href="pages/Services.html">Servicios</a></li>
-                <li><a href="pages/About.html">Sobre Nosotros</a></li>
-                <li><a href="pages/Client.html">Clientes</a></li>
-                <li><a href="pages/Project.html">Proyectos</a></li>
-                <li><a href="pages/Contact.html">Contacto</a></li>
-            </ul>
+        <nav class="menu-nav container">
+            <div class="logo">
+                <img src="./assets/img/logoPrincipal.png" alt="Yams">
+            </div>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="pages/Services.html">Servicios</a></li>
+                    <li><a href="pages/About.html">Sobre Nosotros</a></li>
+                    <li><a href="pages/Client.html">Clientes</a></li>
+                    <li><a href="pages/Project.html">Proyectos</a></li>
+                    <li><a href="pages/Contact.html">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <!-- *Cuerpo Sitio web  -->
     <main>
-
-        <section id="section-primary">
-            <img id="img-principal" src="./assets/img/image-principal.jpg">
-            <h1>Vive una Transformación Digital</h1>
-            <P>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem possimus deserunt labore aspernatur alias.
-                Recusandae illo tempore magnam excepturi non ullam velit laboriosam reiciendis modi mollitia? Nihil architecto
-                tenetur"</P>
+        <section class="section-primary container">
+            <div class="text-primary">
+                <h1>Vive La Transformación Digital Con Nosotros</h1>
+                <P>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem possimus deserunt labore aspernatur
+                    alias.
+                    Recusandae illo tempore magnam excepturi non ullam velit laboriosam reiciendis modi mollitia? Nihil
+                    architecto
+                    tenetur"</P>
+            </div>
         </section>
 
-        <section id="section-services">
-            <h2>SERVICIOS</h2>
-            <p>"Los Mejores Servicios Para Tu Transformación Digital"</param>
-            <article id="container-card">
-                <div class="card-services-1">
-                    <h3>Servicio 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fugit veniam est optio fuga sit distinctio
-                        alias voluptatum culpa iusto.</p>
-                    <a href="" class="button button-alt">Ver</a>
-                </div>      
-                <div class="card-services-2">
-                    <h3>Servicio 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fugit veniam est optio fuga sit distinctio
-                        alias voluptatum culpa iusto.</p>
-                    <a href="" class="button button-alt">Ver</a>
-                </div>
-                <div class="card-services-3">
-                    <h3>Servicio 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fugit veniam est optio fuga sit distinctio
-                        alias voluptatum culpa iusto.</p>
-                    <a href="" class="button button-alt">Ver</a>
-                </div>
-            </article>        
+        <section class="section-services container">
+            <div class="header-section">
+                <h2>Nuestros Servicios</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="card-services">
+                <img class="img-icons" src="/assets/img/Services-1.png" alt="">
+                <h3>Software a la medida</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fugit veniam est optio fuga sit
+                    distinctio
+                    alias voluptatum culpa iusto.</p>
+                <a href="" class="button button-alt">Ver</a>
+            </div>
+            <div class="card-services">
+                <img class="img-icons" src="/assets/img/Services-2.png" alt="">
+                <h3>Analisis BI</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fugit veniam est optio fuga sit
+                    distinctio
+                    alias voluptatum culpa iusto.</p>
+                <a href="" class="button button-alt">Ver</a>
+            </div>
+            <div class="card-services">
+                <img class="img-icons" src="/assets/img/Services-3.png" alt="">
+                <h3>Evaluación de Procesos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fugit veniam est optio fuga sit
+                    distinctio
+                    alias voluptatum culpa iusto.</p>
+                <a href="" class="button button-alt">Ver</a>
+            </div>
         </section>
 
-        <section id="section-client">
-            <h2>CLIENTES</h2>
-            <article id="card-gallery-client">
-                <img class="logo-client-1" src="./assets/Client/Dell.png" alt="Dell">
-                <img class="logo-client-2" src="./assets/Client/HP.png" alt="Hp">
-                <img class="logo-client-3" src="./assets/Client/apple.png" alt="Apple">
-            </article>
+        <section class="section-client container">
+            <div class="header-section">
+                <h2>Nuestros Clientes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="card-gallery-client container">
+                <figure>
+                    <img class="logo-client" src="./assets/Client/Dell.png" alt="Dell">
+                    <img class="logo-client" src="./assets/Client/HP.png" alt="Hp">
+                    <img class="logo-client" src="./assets/Client/apple.png" alt="Apple">
+                </figure>
+            </div>
         </section>
 
-        <section id="section-work">
-            <h2>METODOLOGIA</h2>
-            <article id="container-work">
-                <figure class="column-a">
-                    <img src="./assets/img/Metodologia.jpg">
-                </figure>               
-                <article class="column-b">
+        <section class="section-work container">
+            <div class="header-section">
+                <h2>Nuestra Metodologia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="card-metodologia container">
+                <figure>
+                    <img src="./assets/img/Metodologia.jpg" alt="Metodologia">
+                </figure>
+                <div class="info-metodologia">
                     <h3>Titulo</h3>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum officiis quas praesentium nam architecto quos quo expedita est consequatur labore. Illum nisi eos alias ex amet, corporis soluta officiis minima esse impedit autem delectus minus totam, accusantium sed aliquam perferendis provident numquam architecto cupiditate laudantium reiciendis nihil! Porro, accusantium quibusdam!</P>
-                </article>
-            </article> 
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum officiis quas praesentium nam
+                        architecto quos quo expedita est consequatur labore. Illum nisi eos alias ex amet, corporis
+                        soluta officiis minima esse impedit autem delectus minus totam, accusantium sed aliquam
+                        perferendis provident numquam architecto cupiditate laudantium reiciendis nihil! Porro,
+                        accusantium quibusdam!</P>
+                </div>
+            </div>
         </section>
-
     </main>
     <footer>
-        <div id="container-footer">
+        <div class="footer">
             <div id="footer-socialNetworks">
                 <h3>Redes Sociales</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -91,7 +115,7 @@
                     <li><i class="fa-brands fa-facebook"></i><a href="#">facebook</a></li>
                     <li><i class="fa-brands fa-instagram"></i></><a href="#">instagram</a></li>
                     <li><i class="fa-brands fa-twitter"></i></i><a href="#">twitter</a></li>
-                    <li><i class="fa-brands fa-linkedin"></i></i><a href="#">linkedin</a></li>                   
+                    <li><i class="fa-brands fa-linkedin"></i></i><a href="#">linkedin</a></li>
                 </ul>
             </div>
             <div id="footer-navegation">
@@ -111,18 +135,17 @@
                         <li><i class="fa-solid fa-envelope-open-text"></i></i>gerencia@yams.cl</li>
                         <li><i class="fa-solid fa-square-phone"></i>+56 9 XXXXXXX</li>
                     </ul>
-                </div>         
+                </div>
             </div>
             <div id="map-location">
                 <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.501928560376!2d-68.94536318255615!3d-22.447764999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ac0998349f5ad3%3A0x4a08f42019953b10!2sQuetena%203114%2C%20Calama%2C%20Antofagasta!5e0!3m2!1ses-419!2scl!4v1663816362377!5m2!1ses-419!2scl"
-            width="300" height="130" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>    
-        </div>
-        <div class="clear-float"></div>
-        <div class="copyright">
-            <p>Copyright 2021 All Right Reserved By <a href="#">Yilmar Munioz</a></p>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.501928560376!2d-68.94536318255615!3d-22.447764999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ac0998349f5ad3%3A0x4a08f42019953b10!2sQuetena%203114%2C%20Calama%2C%20Antofagasta!5e0!3m2!1ses-419!2scl!4v1663816362377!5m2!1ses-419!2scl"
+                    width="300" height="130" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2021 All Right Reserved By <a href="#">Yilmar Munioz</a></p>
+            </div>
         </div>
     </footer>
 </body>
