@@ -101,10 +101,13 @@ nav ul a:hover {
 .section-services{
     background-color: #c6eff6;
     color: #06283D;
-    height: 1090px;
     padding: 30px;
     text-align: center;
 }
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}  
 .card-services{
     background-color:  #DFF6FF;
     background-size: cover;
@@ -126,7 +129,7 @@ nav ul a:hover {
 }
 
 .card-services p {
-    display: none;
+    padding: 15px;
 }
 
 /*seccion de clientes*/
@@ -173,7 +176,7 @@ nav ul a:hover {
     text-align: justify;
 }
 
-footer{
+.footer{
     display: flex;
     justify-content:center;
     text-align: center;
@@ -184,7 +187,7 @@ footer{
 /*Footer*/
 footer h3{
     padding: 10px;
-     color: #60CEED;
+    color: #60CEED;
 }
 footer p {
     color: #c6eff6;
@@ -192,7 +195,20 @@ footer p {
     padding: 10px 10px;
 }
 
-#footer-socialNetworks ul li, #footer-navegation ul li , #footer-location ul li {
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer-navegation, #footer-socialNetworks,#footer-location{
+    margin: 15px;
+}
+
+#footer-socialNetworks{
+}
+
+#footer-socialNetworks ul li, #footer-navegation ul li , #text-location ul li {
     font-size: 12px;
     line-height: 2;
     text-transform: uppercase;
@@ -210,9 +226,13 @@ footer a:hover{
 }
 
 .copyright{
-    color: #c6eff6;
-    font-size: x-small;
+    background-color:#c6eff6;
 }
+.copyright p{
+    color: #06283D;
+}
+
+
 /*Media query*/
 
 @media only screen and (max-width: 379px) {
@@ -229,7 +249,23 @@ footer a:hover{
         padding-left: 5px;
         font-size: xx-small;
     }
-
+    .card-services p {
+        display: none;
+    }
+    .card-container{
+        flex-direction: column;
+        margin: 35px 35px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }  
+    .copyright{
+        background-color:#c6eff6;
+    }
+    .copyright p{
+        color: #06283D;
+    }
 }
 
 @media only screen and (min-width: 380px) and (max-width: 810px) {
@@ -255,4 +291,20 @@ footer a:hover{
         justify-content: center;
     }
     /* Acomodar los container del todos cuando estan en el tamoño */
+    .card-services p {
+        display: none;
+    }
+    .card-container{
+        flex-direction: column;
+    }  
+    .copyright{
+        background-color:#c6eff6;
+    }
+    .copyright p{
+        color: #06283D;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
