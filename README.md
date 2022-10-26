@@ -1,6 +1,6 @@
-# Primera Pre Entrega :open_file_folder: ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+# Segunda Pre Entrega :open_file_folder: ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Esta Primera Pre Entrega contempla todo lo aprendido en el Curso Web desde la creación de los diferentes Wireframe tanto para Mobile y Desktop, además de llevarlo a un implementación en HTML y CSS.
+Esta Segunda Pre Entrega contempla todo lo aprendido en el Curso Web desde la creación de los diferentes Wireframe tanto para Mobile y Desktop, además de llevarlo a un implementación en HTML y CSS.
 
 ## Tabla de contenidos :spiral_notepad:
 - [Objetivos](Objetivos)
