@@ -244,16 +244,49 @@ footer a:hover{
     text-align: justify; 
 }
 /* Services*/
-.service-img img, .client-img img, .img-project{
+
+.service-img img, .client-img img {
     width: 500px;
     height: 400px;
 }
 /* Project */
-.column {
-    justify-content: center;
-    width: 25%;
-    padding: 0 10px;
-  }
+.title-project{
+    padding:15px;
+    text-align: center; 
+}
+.card{
+    text-align: center; 
+    width: auto;
+    height: 600px;
+    margin: 10px;
+}
+.card-imagen{
+    background-size: cover;
+    height: 300px;
+    box-shadow: #06283D;
+    border: #06283D solid 1px;
+    margin-top: 10px;
+}
+.card h2{
+    margin-top: 15px;
+}
+.card p {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.card-1{
+    background-image: url('../assets/Project/p1.png');
+}
+.card-2{
+    background-image: url('../assets/Project/p2.png');
+}
+.card-3{
+    background-image: url('../assets/Project/p3.png');
+}
+.card-4{
+    background-image: url('../assets/Project/p4.png');
+}
 
 /*Media query*/
 
@@ -291,9 +324,13 @@ footer a:hover{
     img {
         width: 100%;
     }
-    .about, .section-service{
+    .about, .section-service, .section-client-info{
         flex-direction: column;
     }
+    .section-project{
+        flex-wrap: wrap;
+    }
+
 }
 
 @media only screen and (min-width: 380px) and (max-width: 810px) {
@@ -338,7 +375,10 @@ footer a:hover{
     img {
         width: 100%;
     }
-    .about,.section-service, {
+    .about, .section-service, .section-client-info {
         flex-direction: column;
+    }
+    .section-project{
+        flex-wrap: wrap;
     }
 }
