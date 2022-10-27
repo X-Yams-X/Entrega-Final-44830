@@ -288,9 +288,43 @@ footer a:hover{
     background-image: url('../assets/Project/p4.png');
 }
 
+/* Page Contacto */
+
+.section-contact{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    height: 400px;
+    width: 1200px;
+}
+
+.contact-about{
+    width: 400px;
+    text-align: center;
+}
+
+.contact-about p{
+
+}
+
+.contact-form{
+    width: 800px;
+    padding: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    padding: 10px 20px;
+    
+}
 /*Media query*/
 
 @media only screen and (max-width: 379px) {
+
     .logo img {
         height: 60px;
         width: 260px;
@@ -328,6 +362,9 @@ footer a:hover{
         flex-direction: column;
     }
     .section-project{
+        flex-wrap: wrap;
+    }
+    .section-contact{
         flex-wrap: wrap;
     }
 
@@ -381,4 +418,8 @@ footer a:hover{
     .section-project{
         flex-wrap: wrap;
     }
+    .section-contact{
+        flex-wrap: wrap;
+    }
+
 }
