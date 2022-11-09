@@ -295,32 +295,45 @@ footer a:hover{
     align-items: center;
     margin: 15px;
     height: 400px;
-    width: 1200px;
+    width: 100%;
 }
 
 .contact-about{
-    width: 400px;
+    width: 40%;
     text-align: center;
 }
 
-.contact-about p{
-
-}
 
 .contact-form{
-    width: 800px;
-    padding: 30px;
+    width: 60%;
 }
 
 form{
     display: flex;
     flex-direction: column;
+    width: 65%; 
+    height: 400px;  
 }
-.row{
-    display: flex;
-    padding: 10px 20px;
-    
-}
+
+input[type=text], select, textarea {  
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=submit] {
+    background-color: #c6eff6;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
 /*Media query*/
 
 @media only screen and (max-width: 379px) {
@@ -366,6 +379,7 @@ form{
     }
     .section-contact{
         flex-wrap: wrap;
+        width: 100%;
     }
 
 }
@@ -420,6 +434,7 @@ form{
     }
     .section-contact{
         flex-wrap: wrap;
+        width: 100%;
     }
 
 }

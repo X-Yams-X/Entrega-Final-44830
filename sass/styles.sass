@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap')
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  font-family: 'Roboto Mono', monospace
+
+a
+  text-decoration: none
+
+header
+  background-color: #06283D
+
+.container
+  /*Margen
+  max-width: auto
+  margin: auto
+  overflow: hidden
+  padding: 60px 0
+
+/* Contenedor del header
+
+.menu-nav
+  width: 90%
+  padding: 0
+  display: flex
+  justify-content: space-between
+  height: auto
+  align-items: center
+
+/* contenedor del logo
+
+.logo img
+  height: 100px
+  width: 300px
+
+/* contenedor del menu navegador
+
+.menu-links li
+  list-style: none
+  display: inline
+  text-transform: uppercase
+  padding-left: 15px
+  padding-top: 35px
+
+nav ul a
+  color: #c6eff6
+
+  &:hover
+    color: #60CEED
+
+/* sección principal
+
+.section-primary
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/image-principal.jpg)
+  background-size: cover
+  background-attachment: fixed
+  background-position: center
+  height: 90vh
+  text-align: center
+
+.text-primary
+  padding: 0
+  height: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+  h1
+    color: #c6eff6
+    letter-spacing: 2px
+    text-shadow: 1px 1px #06283D
+
+  p
+    color: #c6eff6
+    letter-spacing: 2px
+    text-shadow: 1px 1px #06283D
+    padding: 50px
+
+  h1
+    padding: 20px
+
+/* Seccion servicios
+
+.section-services
+  background-color: #c6eff6
+  color: #06283D
+  padding: 30px
+  text-align: center
+
+.card-container
+  display: flex
+  justify-content: space-between
+
+.card-services
+  background-color: #DFF6FF
+  background-size: cover
+  background-position: center center
+  padding: 40px 0px
+  margin: 20px
+  border-radius: 15px
+  border: 1px solid #06283D
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
+
+.img-icons
+  width: 100px
+  height: 102px
+
+.section-services h3, .card-services p
+  padding: 15px
+
+/*seccion de clientes
+
+.section-client, .section-work
+  padding: 30px
+  text-align: center
+  justify-content: center
+
+.header-section
+  padding: 20px
+
+  h2, p
+    color: #06283D
+
+.logo-client
+  margin: 25px
+  width: 180px
+  height: 182px
+
+.card-gallery-client
+  display: flex
+  flex-direction: column
+
+/*seccion Metadologia
+
+.section-work
+  background-color: #c6eff6
+
+/*seccion Metadologia
+
+.info-metodologia
+  h3
+    margin-top: 15px
+    letter-spacing: 4px
+
+  P
+    margin-top: 15px
+    text-align: justify
+
+.footer
+  display: flex
+  justify-content: center
+  text-align: center
+  padding-top: 15px
+  padding: 0px 40px
+  background-color: #06283D
+
+/*Footer
+
+footer
+  h3
+    padding: 10px
+    color: #60CEED
+
+  p
+    color: #c6eff6
+    text-align: center
+    padding: 10px 10px
+
+.footer
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+#footer-navegation, #footer-socialNetworks, #footer-location
+  margin: 15px
+
+#footer-socialNetworks ul li, #footer-navegation ul li, #text-location ul li
+  font-size: 12px
+  line-height: 2
+  text-transform: uppercase
+  list-style: none
+  color: #c6eff6
+
+footer a, i
+  padding-left: 3px
+  color: #c6eff6
+
+footer a:hover
+  color: #60CEED
+
+.copyright
+  background-color: #c6eff6
+
+  p
+    color: #06283D
+
+/* About
+
+.about, .section-service, .section-client-info, .section-project
+  display: flex
+  align-items: center
+  padding: 15px 30px
+
+.about-info, .service-info, .client-info
+  margin: 20px 20px
+  text-align: justify
+
+/* Services
+
+.service-img img, .client-img img
+  width: 500px
+  height: 400px
+
+/* Project
+
+.title-project
+  padding: 15px
+  text-align: center
+
+.card
+  text-align: center
+  width: auto
+  height: 600px
+  margin: 10px
+
+.card-imagen
+  background-size: cover
+  height: 300px
+  box-shadow: #06283D
+  border: #06283D solid 1px
+  margin-top: 10px
+
+.card
+  h2
+    margin-top: 15px
+
+  p
+    margin-top: 15px
+    text-align: justify
+
+.card-1
+  background-image: url('../assets/Project/p1.png')
+
+.card-2
+  background-image: url('../assets/Project/p2.png')
+
+.card-3
+  background-image: url('../assets/Project/p3.png')
+
+.card-4
+  background-image: url('../assets/Project/p4.png')
+
+/* Page Contacto
+
+.section-contact
+  display: flex
+  align-items: center
+  margin: 15px
+  height: 400px
+  width: 1200px
+
+.contact-about
+  width: 400px
+  text-align: center
+
+
+.contact-form
+  width: 800px
+  padding: 30px
+
+form
+  display: flex
+  flex-direction: column
+
+.row
+  display: flex
+  padding: 10px 20px
+
+/*Media query
+
+@media only screen and (max-width: 379px)
+  .logo img
+    height: 60px
+    width: 260px
+
+  .menu-nav
+    flex-direction: column
+
+  .menu-links li
+    padding-left: 5px
+    font-size: xx-small
+
+  .card-services p
+    display: none
+
+  .card-container
+    flex-direction: column
+    margin: 35px 35px
+
+  .footer
+    display: flex
+    flex-direction: column
+
+  .copyright
+    background-color: #c6eff6
+
+    p
+      color: #06283D
+
+  img
+    width: 100%
+
+  .about, .section-service, .section-client-info
+    flex-direction: column
+
+  .section-project, .section-contact
+    flex-wrap: wrap
+
+@media only screen and (min-width: 380px) and (max-width: 810px)
+  .logo img
+    height: 80px
+    width: 280px
+
+  .menu-nav
+    flex-direction: column
+
+  .menu-links li
+    padding-left: 7px
+    font-size: 10px
+
+  .text-primary h1, p
+    letter-spacing: 3px
+
+  .text-primary p
+    padding: 60px
+    justify-content: center
+
+  /* Acomodar los container del todos cuando estan en el tamoño
+
+  .card-services p
+    display: none
+
+  .card-container
+    flex-direction: column
+
+  .copyright
+    background-color: #c6eff6
+
+    p
+      color: #06283D
+
+  .footer
+    display: flex
+    flex-direction: column
+
+  img
+    width: 100%
+
+  .about, .section-service, .section-client-info
+    flex-direction: column
+
+  .section-project, .section-contact
+    flex-wrap: wrap

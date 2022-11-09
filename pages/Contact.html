@@ -35,38 +35,27 @@
                 <p>Correo: Contacto@hotmail.com</p>
             </div>
             <div class="contact-form">
-                <form action="#" method="post">
-                    <div class="row">
-                        <div class="input-name column-input">
-                            <label for="name">Nombre:</label>
-                            <input type="text" name="name" id="name" placeholder="Ingrese su nombre">  
-                        </div>
-                        <div class="input-company">
-                            <label for="company">Empresa o Proyecto:</label>
-                            <input type="text" name="company" id="company" placeholder="Ingrese su empresa">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-email">
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" id="email" placeholder="Ingrese su email">
-                        </div>
-                        <div class="input-phone">
-                            <label for="phone">Celular:</label>
-                            <input type="number" name="phone" id="phone" placeholder="Ingrese su Celular">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-message">
-                            <label for="message">Mensaje:</label>
-                            <textarea type="text" name="message" id="message" rows="10" cols="10" placeholder="Escribe el mensaje"></textarea>
-                        </div>
-                        <div class="container-button">
-                            <button type="submit" class="button button-alt">Enviar</button>
-                            <button type="reset" class="button button-alt">Reset</button>  
-                        </div>
-                    </div>
-                </form> 
+                <form action="">
+
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Tu Nombre...">
+                
+                    <label for="lname">Apellido</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Tu Apellido...">
+                
+                    <label for="country">Ciudad</label>
+                    <select id="country" name="country">
+                      <option value="Calama">Calama</option>
+                      <option value="Antofagasta">Antofagasta</option>
+                      <option value="Iquique">Iquique</option>
+                    </select>
+                
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" placeholder="Escriba Algo..." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
             </div>
         </section>      
    </main>
