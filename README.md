@@ -29,6 +29,7 @@ Dentro del proyecto se encuentra un archivo HTML llamado index en el se muestra 
 ## Hoja CSS :page_with_curl:
 Dentro del proyecto se encuentra un archivo style.css en donde se muestran todos los estilos básicos que le darán vida al sitio web.
 
-
+## Hoja SASS 
+Dentro del proyecto se encuentra un archivo style.sass en donde se muestran todos los estilos básicos que le darán vida al sitio web cuando se compile el poryecto utilizando NPM SASS
 
 
