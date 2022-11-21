@@ -7,6 +7,7 @@ Esta Segunda Pre Entrega contempla todo lo aprendido en el Curso Web desde la cr
 - [MockUp(Wireframe/prototipo)](MockUp(Wireframe/prototipo))
 - [Estructura HTML]()
 - [Hoja CSS]()
+- [Hoja SASS]()
 
 
 ## Objetivos :pushpin:
